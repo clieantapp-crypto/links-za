@@ -12,7 +12,7 @@ export default function Home() {
           <div className="w-24 h-24 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center mb-4">
             <span className="text-white text-4xl font-bold">Zain</span>
           </div>
-          <h1 className="text-3xl font-bold text-foreground mb-2 text-balance text-center">زين الكويت</h1>
+          <h1 className="text-3xl font-bold text-foreground mb-2 text-balance text-center"></h1>
           <p className="text-muted-foreground text-center text-pretty">رائد الاتصالات والابتكار الرقمي في الكويت</p>
         </div>
 
@@ -138,7 +138,7 @@ export default function Home() {
               الشروط والأحكام
             </Link>
           </div>
-          <p className="text-muted-foreground text-center">© 2025 زين الكويت. جميع الحقوق محفوظة.</p>
+          <p className="text-muted-foreground text-center">© 2025 . جميع الحقوق محفوظة.</p>
         </div>
       </div>
     </main>

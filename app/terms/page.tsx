@@ -21,7 +21,7 @@ export default function Terms() {
             </div>
             <div>
               <h1 className="text-4xl font-bold text-foreground text-balance">الشروط والأحكام</h1>
-              <p className="text-muted-foreground">شروط استخدام خدمات زين الكويت</p>
+              <p className="text-muted-foreground">شروط استخدام خدمات </p>
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ export default function Terms() {
               <div>
                 <h2 className="text-2xl font-semibold text-foreground mb-3">قبول الشروط</h2>
                 <p className="text-foreground leading-relaxed">
-                  باستخدامك لخدمات زين الكويت، فإنك توافق على الالتزام بهذه الشروط والأحكام. إذا كنت لا توافق على أي من
+                  باستخدامك لخدمات ، فإنك توافق على الالتزام بهذه الشروط والأحكام. إذا كنت لا توافق على أي من
                   هذه الشروط، يرجى عدم استخدام خدماتنا. نحتفظ بالحق في تعديل هذه الشروط في أي وقت، وسيتم إخطارك بأي
                   تغييرات مهمة.
                 </p>
@@ -100,7 +100,7 @@ export default function Terms() {
             <ul className="list-disc list-inside space-y-2 text-foreground mr-4">
               <li>الاتصال بخدمة العملاء على 107</li>
               <li>زيارة أحد فروعنا</li>
-              <li>استخدام تطبيق أو موقع زين الكويت</li>
+              <li>استخدام تطبيق أو موقع </li>
             </ul>
             <p className="text-foreground leading-relaxed mt-3">قد تطبق رسوم إلغاء مبكر على بعض الباقات.</p>
           </Card>
@@ -109,14 +109,14 @@ export default function Terms() {
             <h2 className="text-2xl font-semibold text-foreground mb-3">حقوق الملكية الفكرية</h2>
             <p className="text-foreground leading-relaxed">
               جميع المحتويات والمواد المتوفرة على منصاتنا، بما في ذلك الشعارات والعلامات التجارية والنصوص والصور، هي ملك
-              لشركة زين الكويت أو مرخصيها. لا يجوز استخدامها أو نسخها أو توزيعها دون إذن كتابي مسبق.
+              لشركة  أو مرخصيها. لا يجوز استخدامها أو نسخها أو توزيعها دون إذن كتابي مسبق.
             </p>
           </Card>
 
           <Card className="p-6">
             <h2 className="text-2xl font-semibold text-foreground mb-3">تحديد المسؤولية</h2>
             <p className="text-foreground leading-relaxed">
-              لن تكون زين الكويت مسؤولة عن أي أضرار مباشرة أو غير مباشرة أو عرضية أو تبعية ناتجة عن استخدام أو عدم
+              لن تكون  مسؤولة عن أي أضرار مباشرة أو غير مباشرة أو عرضية أو تبعية ناتجة عن استخدام أو عدم
               القدرة على استخدام خدماتنا، ما لم ينص القانون على خلاف ذلك.
             </p>
           </Card>

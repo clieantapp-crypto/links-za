@@ -36,7 +36,7 @@ export default function PrivacyPolicy() {
               <div>
                 <h2 className="text-2xl font-semibold text-foreground mb-3">المقدمة</h2>
                 <p className="text-foreground leading-relaxed">
-                  تلتزم شركة زين الكويت بحماية خصوصية عملائنا. توضح سياسة الخصوصية هذه كيفية جمع واستخدام وحماية
+                  تلتزم شركة  بحماية خصوصية عملائنا. توضح سياسة الخصوصية هذه كيفية جمع واستخدام وحماية
                   المعلومات الشخصية التي نحصل عليها من مستخدمي خدماتنا.
                 </p>
               </div>
@@ -153,7 +153,7 @@ export default function PrivacyPolicy() {
                 <strong>الهاتف:</strong> 107 (من داخل الكويت)
               </p>
               <p>
-                <strong>العنوان:</strong> زين الكويت، الكويت
+                <strong>العنوان:</strong> ، الكويت
               </p>
             </div>
           </Card>

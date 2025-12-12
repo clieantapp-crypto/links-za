@@ -1,20 +1,12 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Tajawal } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
-const tajawal = Tajawal({
-  weight: ["400", "500", "700"],
-  subsets: ["arabic"],
-  display: "swap",
-})
 
 export const metadata: Metadata = {
-  title: "زين الكويت | Zain Kuwait - روابط حيوية",
-  description: "زين الكويت - رائد الاتصالات والابتكار الرقمي في الكويت. جميع روابطنا في مكان واحد.",
-  keywords: "زين الكويت, Zain Kuwait, اتصالات, انترنت, باقات, خدمة العملاء",
-  generator: "v0.app",
+  title: "   الاتصالات والابتكار الرقمي في الكويت ",
+  description: " - رائد الاتصالات والابتكار الرقمي في الكويت. جميع روابطنا في مكان واحد.",
+  keywords: " اتصالات, انترنت, باقات, خدمة العملاء",
   icons: {
     icon: [
       {
@@ -33,7 +25,7 @@ export const metadata: Metadata = {
     apple: "/apple-icon.png",
   },
   openGraph: {
-    title: "زين الكويت | Zain Kuwait",
+    title: " | ",
     description: "رائد الاتصالات والابتكار الرقمي في الكويت",
     type: "website",
     locale: "ar_KW",
@@ -61,9 +53,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ar" dir="rtl">
-      <body className={`${tajawal.className} antialiased`}>
+      <body >
         {children}
-        <Analytics />
       </body>
     </html>
   )
