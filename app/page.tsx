@@ -10,7 +10,7 @@ export default function Home() {
         {/* Logo and Header */}
         <div className="flex flex-col items-center mb-8">
           <div className="w-24 h-24 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center mb-4">
-            <span className="text-white text-4xl font-bold">Zain</span>
+            <span className="text-white text-4xl font-bold">5G</span>
           </div>
           <h1 className="text-3xl font-bold text-foreground mb-2 text-balance text-center"></h1>
           <p className="text-muted-foreground text-center text-pretty">رائد الاتصالات والابتكار الرقمي في الكويت</p>
@@ -20,7 +20,7 @@ export default function Home() {
         <div className="space-y-4 mb-8">
           <h2 className="text-xl font-semibold text-foreground mb-4">خدمات الدفع</h2>
 
-          <Link href="https://www.kw.zain.com/quick-pay" target="_blank" rel="noopener noreferrer">
+          <Link href="/" target="_blank" rel="noopener noreferrer">
             <Card className="p-4 hover:bg-accent transition-colors cursor-pointer border-primary/20">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
@@ -34,7 +34,7 @@ export default function Home() {
             </Card>
           </Link>
 
-          <Link href="https://www.kw.zain.com/bill-payment" target="_blank" rel="noopener noreferrer">
+          <Link href="/" target="_blank" rel="noopener noreferrer">
             <Card className="p-4 hover:bg-accent transition-colors cursor-pointer border-secondary/20">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-secondary rounded-lg flex items-center justify-center">
@@ -53,7 +53,7 @@ export default function Home() {
         <div className="space-y-4 mb-8">
           <h2 className="text-xl font-semibold text-foreground mb-4">خدماتنا</h2>
 
-          <Link href="https://www.kw.zain.com" target="_blank" rel="noopener noreferrer">
+          <Link href="/" target="_blank" rel="noopener noreferrer">
             <Card className="p-4 hover:bg-accent transition-colors cursor-pointer">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
@@ -67,7 +67,7 @@ export default function Home() {
             </Card>
           </Link>
 
-          <Link href="https://www.kw.zain.com/personal" target="_blank" rel="noopener noreferrer">
+          <Link href="/" target="_blank" rel="noopener noreferrer">
             <Card className="p-4 hover:bg-accent transition-colors cursor-pointer">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center">
@@ -81,7 +81,7 @@ export default function Home() {
             </Card>
           </Link>
 
-          <Link href="https://www.kw.zain.com/support" target="_blank" rel="noopener noreferrer">
+          <Link href="/" target="_blank" rel="noopener noreferrer">
             <Card className="p-4 hover:bg-accent transition-colors cursor-pointer">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center">
@@ -96,32 +96,7 @@ export default function Home() {
           </Link>
         </div>
 
-        {/* Social Media Links */}
-        <div className="mb-8">
-          <h2 className="text-xl font-semibold text-foreground mb-4 text-center">تابعونا على وسائل التواصل</h2>
-          <div className="flex justify-center gap-4">
-            <Link href="https://instagram.com/zainkuwait" target="_blank" rel="noopener noreferrer">
-              <Button size="icon" variant="outline" className="rounded-full bg-transparent">
-                <Instagram className="w-5 h-5" />
-              </Button>
-            </Link>
-            <Link href="https://facebook.com/zainkuwait" target="_blank" rel="noopener noreferrer">
-              <Button size="icon" variant="outline" className="rounded-full bg-transparent">
-                <Facebook className="w-5 h-5" />
-              </Button>
-            </Link>
-            <Link href="https://twitter.com/zainkuwait" target="_blank" rel="noopener noreferrer">
-              <Button size="icon" variant="outline" className="rounded-full bg-transparent">
-                <Twitter className="w-5 h-5" />
-              </Button>
-            </Link>
-            <Link href="https://youtube.com/zainkuwait" target="_blank" rel="noopener noreferrer">
-              <Button size="icon" variant="outline" className="rounded-full bg-transparent">
-                <Youtube className="w-5 h-5" />
-              </Button>
-            </Link>
-          </div>
-        </div>
+      
 
         {/* Legal Links */}
         <div className="flex flex-col items-center gap-3 text-sm">
